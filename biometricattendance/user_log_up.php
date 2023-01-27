@@ -12,6 +12,8 @@ session_start();
         <th>Device Dep</th>
         <th>Date</th>
         <th>Time In</th>
+        <th>Break In</th>
+        <th>Break Out</th>
         <th>Time Out</th>
       </tr>
     </thead>
@@ -125,6 +127,8 @@ session_start();
                   <TD><?php echo $row['device_dep'];?></TD>
                   <TD><?php echo $row['checkindate'];?></TD>
                   <TD><?php echo $row['timein'];?></TD>
+                  <TD><?php echo $row['breakin'];?></TD>
+                  <TD><?php echo $row['breakout'];?></TD>
                   <TD><?php echo $row['timeout'];?></TD>
                   </TR>
       <?php

@@ -28,7 +28,11 @@ if (isset($_POST['login'])) {
 			$resultl = mysqli_stmt_get_result($result);
 
 			if ($row = mysqli_fetch_assoc($resultl)) {
-				$pwdCheck = password_verify($Userpass, $row['admin_pwd']);
+				if ($Userpass == $row['admin_pwd']) {
+					$pwdCheck = true;
+					} else {
+					$pwdCheck = false;
+					}
 				if ($pwdCheck == false) {
 					header("location: login.php?error=wrongpassword");
   					exit();

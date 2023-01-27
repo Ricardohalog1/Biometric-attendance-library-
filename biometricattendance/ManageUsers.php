@@ -46,7 +46,7 @@ if (!isset($_SESSION['Admin-name'])) {
 <body>
 <?php include'header.php';?>
 <main>
-	<h1 class="slideInDown animated">Add a new User or update his information <br> or remove him</h1>
+	<h1 class="slideInDown animated">Add a new User or update his information <br> or disable</h1>
 	<div class="form-style-5 slideInDown animated">
 		<form enctype="multipart/form-data">
 			<fieldset>
@@ -95,13 +95,10 @@ if (!isset($_SESSION['Admin-name'])) {
 			</fieldset>
 				<div class="row">
 					<div class="col-lg-4">
-						<button type="button" name="user_add" class="user_add">Add</button>
-					</div>
-					<div class="col-lg-4">
 						<button type="button" name="user_upd" class="user_upd">Update</button>
 					</div>
 					<div class="col-lg-4">
-						<button type="button" name="user_rmo" class="user_rmo">Remove</button>
+						<button type="button" name="user_rmo" class="user_rmo">Disable</button>
 					</div>
 				</div>
 		</form>

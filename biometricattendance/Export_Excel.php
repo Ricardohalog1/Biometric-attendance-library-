@@ -26,7 +26,8 @@ if(isset($_POST["To_Excel"])){
                             <TH>Fingerprint ID</TH>
                             <TH>Date log</TH>
                             <TH>Time In</TH>
-                            <TH>Time Out</TH>
+                            <TH>Break In</TH>
+                            <TH>Break Out</TH>
                           </TR>';
               while($row=$result->fetch_assoc()) {
                   $output .= '
@@ -37,6 +38,8 @@ if(isset($_POST["To_Excel"])){
                                   <TD> '.$row['fingerprint_id'].'</TD>
                                   <TD> '.$row['checkindate'].'</TD>
                                   <TD> '.$row['timein'].'</TD>
+                                  <TD> '.$row['breakin'].'</TD>
+                                  <TD> '.$row['breakout'].'</TD>
                                   <TD> '.$row['timeout'].'</TD>
                               </TR>';
               }

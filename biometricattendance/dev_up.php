@@ -5,8 +5,8 @@ session_start();
 	<table class="table">
 		<thead>
 	      <tr>
-	        <th>Device type</th>
-	        <th>Department</th>
+	        <th>Room number</th>
+	        <th>Dept/Grade</th>
 	        <th>Code</th>
 	        <th>Date</th>
 	        <th>Mode</th>

@@ -1,0 +1,14 @@
+if ($Userpass == $row['admin_pwd']) {
+$pwdCheck = true;
+} else {
+$pwdCheck = false;
+}
+
+
+
+
+
+
+
+
+2JPhZ7iSf8HybX49DV0bSjFbsyA_5m1HEPFM388zCfYKMXe2W

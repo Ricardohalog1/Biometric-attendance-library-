@@ -73,6 +73,7 @@ td{
   background: #f4f7f8;
   margin: 46px 20px;
   border-radius: 8px;
+  box-shadow: 0 10px 10px 0 rgb(152 149 149), 0 10px 50px 0 rgb(184 138 138 / 95%);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .form-style-5 fieldset{

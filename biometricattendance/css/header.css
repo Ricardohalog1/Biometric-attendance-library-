@@ -5,7 +5,7 @@
 
 body{
     background: -webkit-linear-gradient(left, #0e251f, #21a0ab);
-    background: linear-gradient(to right, #525252, #8c8c8c);
+    background: linear-gradient(to right, #52525200, #00000000);
     font-family: 'Roboto', sans-serif;
     margin: 0;
     font-size: 15px;
@@ -21,18 +21,23 @@ header, main {
   width: 100%;
   height: 90px;
 }
-.logo a {
+.logo b {
   text-decoration: none; 
+  font-family: Luminari, fantasy;
+  text-align: center;
+  line-height: 185px;
+  display: block;
+}
+.logo a {
+  text-decoration: none;
   font-family: Luminari, fantasy;
   font-size: 40px;
   color: #ffffff;
   font-style: italic;
   text-align: center;
-  vertical-align: middle;
   line-height: 100px;
   display: block;
 }
-
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -58,6 +63,7 @@ header, main {
 }
 
 .topnav {
+  height: 50px;
   overflow: hidden;
   background-color: #101010;
 }
@@ -67,14 +73,13 @@ header, main {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 11px;
   text-decoration: none !important;
-  font-size: 17px;
-  border-radius: 0 25px;
+  font-size: 15px;
+  border-radius: 10px;
   transition: all 0.5s;
   cursor: pointer;
 }
-
 .topnav a:hover {
   background-color: #5e5e5e;
   color: #efefef;
@@ -225,4 +230,27 @@ span.psw {
   margin-right: 20px;
   text-align: center;
   position: absolute;
+}
+html {
+	background-color: hsla(200,40%,30%,.4);
+	background-image:		
+  url('https://lh6.googleusercontent.com/EzaFriccIJiNApaega3bP0HomNcfXrEPRsbmMYC7Q9AVPV4evax2pCdU94p2ncXQ0uqfin5yPZyWz5OHCSn6-3b_CK4I-laH-wrOrp5XvvaQLhd3IN-AzY0IUtWdmN_PVpBjGzmwUvM=w16383'),
+		url('https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.6435-9/123730838_10158886072914485_1171035478838908393_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGyj7DHh-ktxP-7zgaS9qtS9ZEuf_5wAK71kS5__nAAriYwP9llfwFHUWwxUjKTO1gQ0SI6qs3TBaa_SJfRF-Px&_nc_ohc=Mbbu6x6YcDQAX8CaxpX&tn=UhtjygmunaQIL-CP&_nc_ht=scontent.fmnl17-2.fna&oh=00_AfBEJ4s5to0LQLH_af22oX6RFsElaXH7-dfqb-1s92x9gw&oe=63E284B7');
+	background-repeat: repeat-x;
+	background-position: 
+		0 0;
+	background-size: 
+		2300px;
+	animation: 50s para infinite linear;
+	}
+
+@keyframes para {
+	0 {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
 }

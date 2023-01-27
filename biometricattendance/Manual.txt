@@ -1,0 +1,51 @@
+How to startup the system
+
+
+
+===========================================Here the link of software downloadable==========================================
+Arduino ide Legacy
+https://downloads.arduino.cc/arduino-1.8.19-windows.exe
+XAMPP
+https://udomain.dl.sourceforge.net/project/xampp/XAMPP%20Windows/8.1.12/xampp-windows-x64-8.1.12-0-VS16-installer.exe
+===========================================================================================================================
+Installation for ARDUINO IDE
+
+STEP 1: Just click Windows Win 7 and newer
+STEP 2: Click the JUST DOWNLOAD
+STEP 3: Now click the arduino-x.x.xx-windows.exe file
+STEP 4: Click I Agree
+STEP 5: Click Next
+STEP 6: Click Next
+STEP 7: Click to Install
+STEP 8: And Click Close
+===================================================================
+Installation for XAMPP SOFTWARE
+
+STEP 1: Click the xampp-windows-x64/x32-x.x.xx.x.VS16-installer.exe file
+STEP 2: to popup the warning message click only OK
+STEP 3: Click Next
+STEP 4: Next
+STEP 5: Next
+STEP 6: Next
+STEP 7: Next
+if done to install 
+STEP 8: Click to Uncheck (Do you want to start the Control Panel) and click to Finish
+===================================================================
+For xampp Run administrator configuration
+
+STEP 1: Right click XAMPP Control panel icon
+STEP 2: Click porperties
+STEP 3: Click to Compatibility
+STEP 4: click to check Run this program as an administrator
+STEP 5: click to Apply
+STEP 6: click Ok
+===================================================================
+To Extract Biometric Attendance file
+
+STEP 1: Right click the folder
+STEP 2: Click to Extract All...
+STEP 3: Just click only Extract button
+===================================================================
+NodeMCU Driver Installation
+
+just double click CP210x universal windows Driver

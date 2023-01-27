@@ -7,7 +7,10 @@
 <header>
 <div class="header">
 	<div class="logo">
-		<a href="index.php">Capstone 2 Attendance</a>
+		<a href="index.php">Biometric Attendance</a>
+	</div>
+	<div class="logo">
+	<b href="index.php"><img src="https://www.letran.edu.ph/Images/letranseal.png" style="width:100px;height:100px;"></b>
 	</div>
 </div>
 <?php  
